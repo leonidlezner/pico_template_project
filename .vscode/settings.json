@@ -1,26 +1,28 @@
 {
-    "cmake.environment": {
-        "PICO_SDK_PATH": "${workspaceRoot}/vendor/pico-sdk",
-        "PIMORONI_PICO_PATH": "${workspaceRoot}/vendor/pimoroni-pico/",
+  "cmake.environment": {
+    "PICO_SDK_PATH": "${workspaceRoot}/vendor/pico-sdk",
+    "PIMORONI_PICO_PATH": "${workspaceRoot}/vendor/pimoroni-pico/"
+  },
+  "cmake.statusbar.advanced": {
+    "debug": {
+      "visibility": "hidden"
     },
-    "cmake.statusbar.advanced": {
-        "debug": {
-            "visibility": "hidden"
-        },
-        "launch": {
-            "visibility": "hidden"
-        },
-        "build": {
-            "visibility": "default",
-        },
-        "buildTarget": {
-            "visibility": "hidden"
-        }
+    "launch": {
+      "visibility": "hidden"
     },
-    "cmake.configureOnOpen": false,
-    "files.associations": {
-        "*.html": "html",
-        "stdlib.h": "c",
-        "stdio.h": "c"
+    "build": {
+      "visibility": "default"
+    },
+    "buildTarget": {
+      "visibility": "hidden"
     }
+  },
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "*.html": "html",
+    "stdlib.h": "c",
+    "stdio.h": "c"
+  },
+  "cmake.buildBeforeRun": true,
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
 }
